@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Select Target Language</title>
+    <style type="text/css">
+        html,body,form{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font: 12px/1.5 "Helvetica Neue", Helvetica, arial , san-serif;
+            width: 15em;
+        }
+        label{
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            background-color: #F3F6FA;
+            padding: 0 .5em;
+        }
+        label:nth-child(odd){
+            background-color: #fff;
+        }
+        label:hover{
+            background-color: #83B0CC;
+            color: #fff;
+        }
+        input{
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<form id="select-language">
+    <label data-flag="Afrikaans"><input type="radio" name="language" value="af">Afrikaans</label>
+    <label data-flag="Albanian"><input type="radio" name="language" value="sq">Albanian</label>
+    <label data-flag="Arabic"><input type="radio" name="language" value="ar">Arabic</label>
+    <label data-flag="Armenian"><input type="radio" name="language" value="hy">Armenian</label>
+    <label data-flag="Azerbaijani"><input type="radio" name="language" value="az">Azerbaijani</label>
+    <label data-flag="Basque"><input type="radio" name="language" value="eu">Basque</label>
+    <label data-flag="Belarusian"><input type="radio" name="language" value="be">Belarusian</label>
+    <label data-flag="Bengali"><input type="radio" name="language" value="bn">Bengali</label>
+    <label data-flag="Bulgarian"><input type="radio" name="language" value="bg">Bulgarian</label>
+    <label data-flag="Catalan"><input type="radio" name="language" value="ca">Catalan</label>
+    <label data-flag="Chinese (Simplified)"><input type="radio" name="language" value="zh-CN" checked="checked">Chinese (Simplified)</label>
+    <label data-flag="Chinese (Traditional)"><input type="radio" name="language" value="zh-TW">Chinese (Traditional)</label>
+    <label data-flag="Croatian"><input type="radio" name="language" value="hr">Croatian</label>
+    <label data-flag="Czech"><input type="radio" name="language" value="cs">Czech</label>
+    <label data-flag="Danish"><input type="radio" name="language" value="da">Danish</label>
+    <label data-flag="Dutch"><input type="radio" name="language" value="nl">Dutch</label>
+    <label data-flag="English"><input type="radio" name="language" value="en">English</label>
+    <label data-flag="Esperanto"><input type="radio" name="language" value="eo">Esperanto</label>
+    <label data-flag="Estonian"><input type="radio" name="language" value="et">Estonian</label>
+    <label data-flag="Filipino"><input type="radio" name="language" value="tl">Filipino</label>
+    <label data-flag="Finnish"><input type="radio" name="language" value="fi">Finnish</label>
+    <label data-flag="French"><input type="radio" name="language" value="fr">French</label>
+    <label data-flag="Galician"><input type="radio" name="language" value="gl">Galician</label>
+    <label data-flag="Georgian"><input type="radio" name="language" value="ka">Georgian</label>
+    <label data-flag="German"><input type="radio" name="language" value="de">German</label>
+    <label data-flag="Greek"><input type="radio" name="language" value="el">Greek</label>
+    <label data-flag="Gujarati"><input type="radio" name="language" value="gu">Gujarati</label>
+    <label data-flag="Haitian Creole"><input type="radio" name="language" value="ht">Haitian Creole</label>
+    <label data-flag="Hebrew"><input type="radio" name="language" value="iw">Hebrew</label>
+    <label data-flag="Hindi"><input type="radio" name="language" value="hi">Hindi</label>
+    <label data-flag="Hungarian"><input type="radio" name="language" value="hu">Hungarian</label>
+    <label data-flag="Icelandic"><input type="radio" name="language" value="is">Icelandic</label>
+    <label data-flag="Indonesian"><input type="radio" name="language" value="id">Indonesian</label>
+    <label data-flag="Irish"><input type="radio" name="language" value="ga">Irish</label>
+    <label data-flag="Italian"><input type="radio" name="language" value="it">Italian</label>
+    <label data-flag="Japanese"><input type="radio" name="language" value="ja">Japanese</label>
+    <label data-flag="Kannada"><input type="radio" name="language" value="kn">Kannada</label>
+    <label data-flag="Khmer"><input type="radio" name="language" value="km">Khmer</label>
+    <label data-flag="Korean"><input type="radio" name="language" value="ko">Korean</label>
+    <label data-flag="Lao"><input type="radio" name="language" value="lo">Lao</label>
+    <label data-flag="Latin"><input type="radio" name="language" value="la">Latin</label>
+    <label data-flag="Latvian"><input type="radio" name="language" value="lv">Latvian</label>
+    <label data-flag="Lithuanian"><input type="radio" name="language" value="lt">Lithuanian</label>
+    <label data-flag="Malay"><input type="radio" name="language" value="ms">Malay</label>
+    <label data-flag="Maltese"><input type="radio" name="language" value="mt">Maltese</label>
+    <label data-flag="Norwegian"><input type="radio" name="language" value="no">Norwegian</label>
+    <label data-flag="Persian"><input type="radio" name="language" value="fa">Persian</label>
+    <label data-flag="Polish"><input type="radio" name="language" value="pl">Polish</label>
+    <label data-flag="Portuguese"><input type="radio" name="language" value="pt">Portuguese</label>
+    <label data-flag="Romanian"><input type="radio" name="language" value="ro">Romanian</label>
+    <label data-flag="Russian"><input type="radio" name="language" value="ru">Russian</label>
+    <label data-flag="Serbian"><input type="radio" name="language" value="sr">Serbian</label>
+    <label data-flag="Slovak"><input type="radio" name="language" value="sk">Slovak</label>
+    <label data-flag="Slovenian"><input type="radio" name="language" value="sl">Slovenian</label>
+    <label data-flag="Spanish"><input type="radio" name="language" value="es">Spanish</label>
+    <label data-flag="Swahili"><input type="radio" name="language" value="sw">Swahili</label>
+    <label data-flag="Swedish"><input type="radio" name="language" value="sv">Swedish</label>
+    <label data-flag="Tamil"><input type="radio" name="language" value="ta">Tamil</label>
+    <label data-flag="Telugu"><input type="radio" name="language" value="te">Telugu</label>
+    <label data-flag="Thai"><input type="radio" name="language" value="th">Thai</label>
+    <label data-flag="Turkish"><input type="radio" name="language" value="tr">Turkish</label>
+    <label data-flag="Ukrainian"><input type="radio" name="language" value="uk">Ukrainian</label>
+    <label data-flag="Urdu"><input type="radio" name="language" value="ur">Urdu</label>
+    <label data-flag="Vietnamese"><input type="radio" name="language" value="vi">Vietnamese</label>
+    <label data-flag="Welsh"><input type="radio" name="language" value="cy">Welsh</label>
+    <label data-flag="Yiddish"><input type="radio" name="language" value="yi">Yiddish</label>
+</form>
+<script src="popup.js"></script>
+</body>
+</html>
